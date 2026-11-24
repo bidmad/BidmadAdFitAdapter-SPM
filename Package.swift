@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadAdFitAdapter", targets: ["BidmadAdFitAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
     .package(url: "https://github.com/adfit/adfit-spm.git", exact: "3.18.3"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadAdFitAdapter",
-      url: "https://github.com/bidmad/BidmadAdFitAdapter-SPM/releases/download/7.2.0-dev.5+3.18.3/BidmadAdFitAdapter.xcframework.zip",
-      checksum: "ee30e7d3533283bed628204ae2056f0be1f8f7a5ce6d220ecc52bd26249bcbe0"
+      url: "https://github.com/bidmad/BidmadAdFitAdapter-SPM/releases/download/7.2.0-dev.7+3.18.3/BidmadAdFitAdapter.xcframework.zip",
+      checksum: "54ca094a523ef0c8b6dc32476dc3ef5b0dbe2ce500f67c97f8545fbcfa8d7b6f"
     ),
   ]
 )
